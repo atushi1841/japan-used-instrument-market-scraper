@@ -35,6 +35,12 @@ Scrapes listings from **Digimart (デジマート)** — Japan's largest used-in
 | `imageUrl` | Product image URL |
 | `productUrl` | Product page URL |
 | `scrapedAt` | Scrape timestamp |
+| `listPrice` | Regular/list price in JPY (when discounted) |
+| `instruType` | Instrument type code |
+| `instruTypeLabel` | Instrument type label (新品/中古/アウトレット) |
+| `inStock` | Stock availability (boolean) |
+| `shopName` | Selling shop name (Digimart only) |
+| `registeredAt` | Listing registration date |
 
 ## Output sample
 
