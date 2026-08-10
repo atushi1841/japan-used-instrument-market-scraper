@@ -36,6 +36,32 @@ Scrapes listings from **Digimart (デジマート)** — Japan's largest used-in
 | `productUrl` | Product page URL |
 | `scrapedAt` | Scrape timestamp |
 
+## Output sample
+
+```json
+{
+  "productId": "DS10679928",
+  "title": "Made in Japan Limited Active Modern Stratocaster HSS Rosewood Fingerboard Black フェンダー [限定モデ",
+  "brand": "Fender",
+  "category": "エレキギター",
+  "price": 275000,
+  "listPrice": null,
+  "condition": "新品",
+  "instruType": "1",
+  "instruTypeLabel": "新品",
+  "inStock": true,
+  "shopName": "イシバシ楽器 デジマート店",
+  "registeredAt": "2026/08/10",
+  "imageUrl": "https://img.digimart.net/prdimg/s/2b/daef69e60a8b5ba9d6147894732cc4f424264d.jpg",
+  "productUrl": "https://www.digimart.net/cat01/shop1484/DS10679928/",
+  "scrapedAt": "2026-08-10T09:54:40.242533Z",
+  "source": "digimart",
+  "shop": "イシバシ楽器 デジマート店"
+}
+```
+
+The `source` + `shop` fields let you compare the same instrument across shops: run once with `searchKeyword: "Fender"` and get Digimart and Ishibashi prices side by side.
+
 ## Pricing
 
 Pay per event — $0.00005/run + **$0.002/item**.
