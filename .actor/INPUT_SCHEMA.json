@@ -13,7 +13,8 @@
       "title": "相場統計キーワード",
       "type": "string",
       "description": "タイトル部分一致でフィルタ（statsMode时に使用）",
-      "default": ""
+      "default": "",
+      "editor": "textfield"
     },
     "searchKeyword": {
       "title": "検索キーワード",
