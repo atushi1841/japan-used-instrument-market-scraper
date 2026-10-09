@@ -1,5 +1,7 @@
 # Japan Used Instrument Market — Cross-Shop Price Comparison
 
+[![Apify Store](https://img.shields.io/badge/Apify-Store-blue)](https://apify.com/fruitful_quintessence/japan-used-instrument-market-scraper)
+
 **Compare used guitar & instrument prices across Japan's largest used-instrument marketplaces in a single dataset.**
 
 Scrapes listings from **Digimart (デジマート)** — Japan's largest used-instrument marketplace (2,000+ shops) — and **Ishibashi Music U-BOX (イシバシ楽器)** — one of Japan's biggest music store chains (12 stores, 7,000+ used items in stock). Each item is tagged with its `source` and `shop` so you can compare prices for the same model across shops.
